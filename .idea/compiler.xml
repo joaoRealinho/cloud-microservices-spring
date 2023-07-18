@@ -11,6 +11,7 @@
         <module name="AccountManagementApi" />
         <module name="ConfigServer" />
         <module name="ApiGateway" />
+        <module name="PhotoAppApiAlbums" />
         <module name="UsersApi" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="ApiGateway" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
+      <module name="PhotoAppApiAlbums" options="-parameters" />
       <module name="UsersApi" options="-parameters" />
     </option>
   </component>

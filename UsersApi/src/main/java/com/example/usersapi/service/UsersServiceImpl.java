@@ -76,8 +76,9 @@ public class UsersServiceImpl implements UsersService {
         List<AlbumResponseModel> albumList = albumsListResponse.getBody();*/
         List<AlbumResponseModel> albumList = null;
 
+        log.debug("Before calling albums Microservice");
         albumList = albumsServiceClient.getAlbums(userId);
-
+        log.debug("After calling albums Microservice");
 
         userDto.setAlbums(albumList);
 

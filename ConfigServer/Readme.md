@@ -17,5 +17,5 @@ CN=joao,OU=ApiDevelopment,O=appsdeveloperblog.com,L=Ottawa,S=lisbon,C=PT" -keypa
 apiEncryptionKey.jks -storepass 123qwe123
 
 # run Zipkin image
-
 docker run -d -p 9411:9411 openzipkin/zipkin
+
